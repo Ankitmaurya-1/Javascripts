@@ -16,18 +16,26 @@
 // console.log(`His friend first is ${real_name} and his last name is ${name}`);
 
 // 
-let a = 1;
-let b = 5;
-let table;
-while (a < 11){
-    table = a * b
-    console.log(`${a} * ${b} = ${table}`);
-    a++;
-}
+// let a = 1;
+// let b = 5;
+// let table;
+// while (a < 11){
+//     table = a * b
+//     console.log(`${a} * ${b} = ${table}`);
+//     a++;
+// }
 
 
-let fact =1;
-for (let b = 5; b >= 1; b--) {
-    fact = b * fact
-}
-console.log(fact);
+// let fact =1;
+// for (let b = 5; b >= 1; b--) {
+//     fact = b * fact
+// }
+// console.log(fact);
+
+
+
+// let name = "Ankit Maurya";
+// let fullname = "King"
+
+// console.log(name.concat( fullname));
+// console.log(name.replace("ya","dd"))
