@@ -45,11 +45,11 @@
 // para.classList.add("para2")
 
 
-let newheading = document.createElement("h4");
-newheading.innerText = "This is third child of div after h1 ";
+// let newheading = document.createElement("h4");
+// newheading.innerText = "This is third child of div after h1 ";
 
-let div = document.querySelector("div")
-div.appendChild(newheading);
+// let div = document.querySelector("div")
+// div.appendChild(newheading);
 
 
 
