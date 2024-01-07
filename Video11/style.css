@@ -1,0 +1,33 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    color: black;
+} */
+/* .dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+} */
+#box1{
+    background-color: aqua;
+    color: red;
+    height: 100px;
+    width: 100px;
+}
+.box2{
+    margin: 100px;
+    height: 100px;
+    width: 100px;
+    color: black;
+    background-color: yellow;
+}
+.box2_1{
+    background-color: blue;
+    color: red;
+    height: 200px;
+    width: 100px;
+}

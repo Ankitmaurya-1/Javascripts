@@ -12,8 +12,7 @@
 // div.style.textDecoration = "underline";
 // div.style.fontSize = "17px";
 // div.innerText = "chup ho ja";
-// div.style.visibility = "Hidden"
-
+// div.style.visibility = "Hidden";
 // let newbtn = document.createElement("button");
 // newbtn.innerText = "Click Me!";
 // console.dir(newbtn)
