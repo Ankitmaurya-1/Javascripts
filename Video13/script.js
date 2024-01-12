@@ -5,6 +5,7 @@ const choices = document.querySelectorAll(".choice");
 let msg = document.querySelector("#msg");
 let userScorePara = document.querySelector("#user-score");
 let compScorePara = document.querySelector("#comp-score");
+let resetbtn = document.querySelector("#reset-btn");
 
 // computer choice
 const genCompChoice = () => {
@@ -32,10 +33,17 @@ const showWinner = (userwin, userChoice, compChoice) => {
         msg.style.backgroundColor = "red";
     }
 };
-
+const resetGame = () => {
+    userScorePara.innerText = "0";
+    compScorePara.innerText = "0";
+    msg.innerText = "Play your move !";
+    // background-color: #081b31;
+    msg.style.backgroundColor = "#081b31";
+};
+resetbtn.addEventListener("click", resetGame);
 // main game
 const playGame = (userChoice) => {
-   
+
     const compChoice = genCompChoice();
     // Output will be "rock", "paper", or "scissors"
 
@@ -71,6 +79,8 @@ const playGame = (userChoice) => {
         }
 
         showWinner(userwin, userChoice, compChoice);
+        // resetbtn.addEventListener("click", resetGame);
+
     }
 
 };
@@ -82,3 +92,5 @@ choices.forEach((choice) => {
         playGame(userChoice);
     });
 });
+
+
